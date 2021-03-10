@@ -1,0 +1,40 @@
+body{
+    position: relative;
+    background-image: url(../matching-card-bootcamp/imgs/Back.gif);
+    background-repeat:no-repeat;
+    background-size:cover ;
+    /* background-position: ; */
+    height: 950px;
+}
+.cardSelection{
+    box-sizing: border-box 1px solid black;
+    }
+    section{
+    border:2px black solid;
+    height:150px;
+    width:120px;
+    float:left;
+    margin:1% 1% 1% 1%;
+    border-radius:6px;
+    }
+    .cardSection{
+    height:85%;
+    width:50%;
+    border:3px rgb(0, 0, 0) solid;
+    border-radius:5px;
+    position: absolute;
+    top: 15%;
+    right: 40%;
+    background-image:url(../matching-card-bootcamp/imgs/wood.jpg) ;
+    }
+    .card{
+        background-position:center ;
+        background-size:cover;
+        height:180px;
+        width:155px;
+    }
+    img{
+        width: 100%;
+    }
+   
+    
