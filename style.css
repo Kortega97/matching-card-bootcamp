@@ -1,6 +1,6 @@
 body{
     position: relative;
-    background-image: url(../matching-card-bootcamp/imgs/Back.gif);
+    background-image: url(./imgs/Back.gif);
     background-repeat:no-repeat;
     background-size:cover ;
     /* background-position: ; */
@@ -25,7 +25,7 @@ body{
     position: absolute;
     top: 15%;
     right: 40%;
-    background-image:url(../matching-card-bootcamp/imgs/wood.jpg) ;
+    background-image:url(./imgs/wood.jpg) ;
     }
     .card{
         background-position:center ;

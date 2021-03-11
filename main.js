@@ -40,7 +40,7 @@ document.querySelector('button').addEventListener('click',shuffleCards)
  function matchingCards(e) {
      
      if (e.target.className === 'card'){
-         console.log(e.target.style.backgroundImage)
+         console.log(e.target.innerHTML)
          if(e.target.style.backgroundImage === 'url(\"imgs/back2.jpg\")'){
          let cardNumber = e.target.dataset.value;
          console.log(cardNumber)
@@ -50,6 +50,7 @@ document.querySelector('button').addEventListener('click',shuffleCards)
          e.target.style.borderColor = 'gold'
         count++
         moveCount.innerHTML = count
+        e.target.innerHTML = ''
          } 
      }
      if (selected.length === 2) {
@@ -60,7 +61,8 @@ document.querySelector('button').addEventListener('click',shuffleCards)
          }
          else {
              setTimeout(() => {
-                
+                selected[0].innerHTML =  '<img class= \'logo\' src=\"imgs/onepeiceL.png\" alt=\"\"></img>'
+                selected[1].innerHTML =  '<img class= \'logo\' src=\"imgs/onepeiceL.png\" alt=\"\"></img>'
                 selected[0].style.borderColor = 'black'
                 selected[1].style.borderColor = 'black'
                 selected[0].style.backgroundImage = 'url(\'imgs/back2.jpg\')';
