@@ -6,6 +6,13 @@ body{
     /* background-position: ; */
     height: 950px;
 }
+.mainLogo{
+    height: 150px;
+    width: 30%;
+    position: absolute;
+    left: 30%;
+
+}
 .cardSelection{
     box-sizing: border-box 1px solid black;
     }
@@ -24,7 +31,7 @@ body{
     border-radius:5px;
     position: absolute;
     top: 15%;
-    right: 40%;
+    right: 25%;
     background-image:url(./imgs/wood.jpg) ;
     }
     .card{
@@ -35,6 +42,22 @@ body{
     }
     img{
         width: 100%;
+    }
+    h1,h2{
+        float: left;
+        font-family: 'Noto Sans', sans-serif;
+        color: white;
+        text-shadow: 1px 3px 0px black;
+
+    }
+    h2{
+        font-size: 20px;
+        
+    }
+    .text{
+        float: left;
+        width: 20%;
+        height: 300px;
     }
    
     

@@ -38,7 +38,7 @@ document.querySelector('button').addEventListener('click',shuffleCards)
  //Shuffle the cards update cardOrder with the current game's order
  shuffleCards();
  function matchingCards(e) {
-     
+     console.log(e.target,'this is e.taget')
      if (e.target.className === 'card'){
          console.log(e.target.innerHTML)
          if(e.target.style.backgroundImage === 'url(\"imgs/back2.jpg\")'){
